@@ -7,8 +7,9 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    color: #222;
+    color: rgb(255, 255, 255);
     padding-bottom: 50px;
+    background-color: rgb(53, 50, 50);
 }
 
 .container{
@@ -23,7 +24,6 @@ body{
     left: 0;
     right: 0;
     transition: all 0.3s ease-in-out;
-
 }
 
 .nav .container {
@@ -79,7 +79,7 @@ body{
     align-items: center;
     text-align: center;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     z-index: -2;
 }
 .hero::before{
