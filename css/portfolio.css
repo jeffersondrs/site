@@ -2,9 +2,10 @@
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
-    position: relative;
+    position: fixed;
     overflow: hidden;
     width: 100%;
+    margin-top: 62px;
 }
 
 .left-slide{
@@ -48,9 +49,9 @@
     width: 100%;
 }
 button{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(121, 54, 145);
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     font-size: 16px;
     padding: 15px;
@@ -81,3 +82,4 @@ button:focus{
 .section {
     width: 100%;
 }
+

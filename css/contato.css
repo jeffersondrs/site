@@ -1,26 +1,6 @@
 .footer a{
    text-decoration: none;
 }
-.face {
-  border-radius: 100%;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-
-.linkedin {
-  border-radius: 100%;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
- }
-.git {
-  border-radius: 100%;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-.footer img{
-  border-radius: 100%;
-  align-items: center;
-}
 .footer{
   background-color: blueviolet;
   position: fixed;
@@ -33,6 +13,11 @@
   align-items: center;
   justify-content: space-between;
   height: 40px;
-  padding: 5px 50px 0px 50px;
+  padding: 5px 10px 0px 10px;
   opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+  margin-right: 0;
+}
+.allRight{
+    color: rgb(255, 255, 255);    
 }

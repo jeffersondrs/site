@@ -43,3 +43,4 @@ const changeSlide = (direction) =>{
         activeSlideIndex * slideHeight
       }px)`
 }
+
