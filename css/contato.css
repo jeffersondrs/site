@@ -11,17 +11,18 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 40px;
   padding: 5px 10px 0px 10px;
   opacity: 0.9;
-  transition: all 0.3s ease-in-out;
   margin-right: 0;
+
 }
 .allRight {
   color: rgb(255, 255, 255);
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
+  
 }
 .git:hover {
   background-color: black;

@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +23,20 @@
         </ul>
       </div>
     </nav>
-
+    
+    <div class="carousel">
+      <div class="image-container" id="imgs">
+        <img class="img" src="img/imgslide1.jpg" alt="first-image">
+        <img class="img" src="img/imgslide2.jpg" alt="second-image">
+        <img class="img" src="img/imgslide3.jpg" alt="third-image">
+        <img class="img" src="img/imgslide4.jpg" alt="four-image">
+        <img class="img" src="img/imgslide5.jpg" alt="five-image">
+      </div>
+      <div class="buttons-container">
+        <button id="left" class="btn">Prev</button>
+        <button id="right" class="btn">Next</button>
+      </div>
+    </div>
     <footer class="footer">
       <div class="allRight">
         <p>Todos os direitos reservados</p>
@@ -34,17 +47,17 @@
         </a>
       </div>
       <div class="whatsapp">
-        <a href="https://www.facebook.com/jefferson.duarteramos.1">
+        <a href="https://wa.me/5521973152800">
           <img src="img/whatsapp.png" alt="facebook" style="width: 35px;">
         </a>
       </div>
       <div class="twitter">
-        <a href="https://www.facebook.com/jefferson.duarteramos.1">
+        <a href="https://twitter.com/kalliadranoth">
           <img src="img/twitter.png" alt="facebook" style="width: 35px;">
         </a>
       </div>
       <div class="instagram">
-        <a href="https://www.facebook.com/jefferson.duarteramos.1">
+        <a href="https://www.instagram.com/grinreborn/">
           <img src="img/instagram.png" alt="facebook" style="width: 35px;">
         </a>
       </div>
@@ -60,6 +73,20 @@
         </a>
       </div>
     </footer>
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">Jefferson</a></h1>
+        <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <script src="js/script.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/contato.js"></script>
+    <script src="js/slideportfolio.js"></script>
   </body>
-  <script src="js/script.js"></script>
 </html>
