@@ -1,7 +1,7 @@
-.footer a{
-   text-decoration: none;
+.footer a {
+  text-decoration: none;
 }
-.footer{
+.footer {
   background-color: blueviolet;
   position: fixed;
   left: 0;
@@ -18,6 +18,51 @@
   transition: all 0.3s ease-in-out;
   margin-right: 0;
 }
-.allRight{
-    color: rgb(255, 255, 255);    
+.allRight {
+  color: rgb(255, 255, 255);
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.git:hover {
+  background-color: black;
+  border-radius: 100%;
+  justify-content: center;
+  padding: 0;
+  height: 35px;
+}
+
+.linkedin:hover {
+  background-color: black;
+  border-radius: 100%;
+  justify-content: center;
+  padding: 0;
+  height: 35px;
+}
+.twitter:hover {
+  background-color: black;
+  border-radius: 100%;
+  justify-content: center;
+  padding: 0;
+  height: 35px;
+}
+.instagram:hover {
+  background-color: black;
+  border-radius: 22%;
+  justify-content: center;
+  padding: 0;
+  height: 35px;
+}
+.face:hover {
+  background-color: black;
+  border-radius: 100%;
+  justify-content: center;
+  padding: 0;
+  height: 35px;
+}
+.whatsapp:hover {
+  background-color: black;
+  border-radius: 100%;
+  justify-content: center;
+  padding: 0;
+  height: 35px;
 }

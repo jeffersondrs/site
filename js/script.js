@@ -1,5 +1,5 @@
 'use strict';
-
+// efeito nav de todas as paginas
 const nav = document.querySelector('.nav')
 window.addEventListener('scroll', fixNav)
 
@@ -10,7 +10,7 @@ function fixNav(){
         nav.classList.remove('active')
     }
 }
-
+// slide pagina portifolio
 const indexContainer = document.querySelector('.slider-container')
 const indexRight = document.querySelector('.right-slide')
 const indexLeft = document.querySelector('.left-slide')
@@ -44,3 +44,4 @@ const changeSlide = (direction) =>{
       }px)`
 }
 
+// carrocel pagina sobre
